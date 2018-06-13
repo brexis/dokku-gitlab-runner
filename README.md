@@ -15,4 +15,8 @@ $ dokku proxy:ports-add gitlab-runner http:8080:5000
 # Local
 $ git add remote dokku@host_ip:gitlab-runner
 $ git push origin dokku
+
+# Host
+$ dokku run gitlab-runner register
+$ dokku ps:restart
 ```
