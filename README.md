@@ -18,5 +18,5 @@ $ git push origin dokku
 
 # Host
 $ dokku run gitlab-runner register
-$ dokku ps:restart
+$ dokku ps:restart gitlab-runner
 ```
